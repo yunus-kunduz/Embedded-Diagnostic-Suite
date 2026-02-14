@@ -1,6 +1,6 @@
 # Embedded Diagnostic Suite & HIL Simulator
 
-This project is designed to perform Hardware-in-the-Loop (HIL) simulation via Python without requiring a physical STM32 board.
+This project is designed to perform **Hardware-in-the-Loop (HIL)** simulation via Python without requiring a physical STM32 board.
 
 ## 🚀 Features
 
@@ -20,6 +20,18 @@ $$y[n] = \alpha \cdot x[n] + (1 - \alpha) \cdot y[n-1]$$
 
 1. Set up a COM1–COM2 bridge using VSPE.
 
-2. pip install -r requirements.txt
+2. `pip install -r requirements.txt`
 
-3. Run mcu_emulator.py first, then run diagnostic_suite.py.
+3. Run `mcu_emulator.py` first, then run `diagnostic_suite.py`.
+
+## 🖼️ Project Gallery
+
+Below are the screenshots from the real-time execution of the HIL Simulator and Diagnostic Suite.
+
+### 1. Data Flow & Terminal Interface
+Synchronized data transmission between the Virtual MCU (COM1) and the Diagnostic Suite (COM2).
+![Terminal Interface](images/terminal_data.png)
+
+### 2. Development Environment
+Full view of the VS Code workspace, showing the Python-based architecture and the Virtual Serial Port Emulator setup.
+![Workspace Overview](images/workspace.png)
