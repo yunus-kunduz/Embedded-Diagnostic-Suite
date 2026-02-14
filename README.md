@@ -30,8 +30,8 @@ Below are the screenshots from the real-time execution of the HIL Simulator and 
 
 ### 1. Data Flow & Terminal Interface
 Synchronized data transmission between the Virtual MCU (COM1) and the Diagnostic Suite (COM2).
-![Terminal Interface](images/terminal_data.png)
+![Terminal Interface](assets/terminal_data.png)
 
 ### 2. Development Environment
 Full view of the VS Code workspace, showing the Python-based architecture and the Virtual Serial Port Emulator setup.
-![Workspace Overview](images/workspace.png)
+![Workspace Overview](assets/workspace.png)
